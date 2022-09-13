@@ -4,7 +4,7 @@ A Google like web interface.
 
 ## Description
 
-This program is designed to able user to insert a text and revice the Correspondent results in the same way as google-  
+This program is designed to able user to insert a text and revice the Correspondent results in the same way as of google.  
 
 ## Features
 
