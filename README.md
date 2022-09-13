@@ -1,6 +1,6 @@
 # Search Pro
 
-A Google like web interface.
+A Google like web interface developed via React and styled with Tailwind.
 
 ## Description
 
