@@ -73,7 +73,7 @@ function App() {
           <h1 className="text-3xl font-bold mb-5 text-center">Search Pro</h1>
           <form onSubmit={(e)=>e.preventDefault()}>
             <Input handleInput={handleInput} value={input} placeholder="Search" id="SearchInput"/>
-            <Button onClick={handleSearch} role="searchSubmit" css=" bg-blue-600 text-white rounded-md h-11 w-20 md:w-14 mt-2 md:mt-0 block m-auto md:inline"/>
+            <Button onClick={handleSearch} role="searchSubmit" css=" bg-blue-600 hover:shadow-lg text-white rounded-md h-11 w-20 md:w-14 mt-2 md:mt-0 block m-auto md:inline"/>
           </form>
           {typeHead !== null && <TypeHead content={typeHead} handleSelectTypeHead={handleSelectTypeHead}/>}
           {alert && <Alert role="alert" text="Input should be longer than 3 characters!"/>}
